@@ -16,11 +16,11 @@ OR, using 2-dimensions and 10 000 samples: ```python sample_generator.py 2 10000
 
 <h3>3. Use executable</h3>
 
-Using global memory: ```mcmc-gpu.exe --n-blocks=30 --n-threads=1920 --n-dim=10 --sm=0```
+Using global memory: ```mcmc_gpu.exe --n-blocks=30 --n-threads=1920 --n-dim=10 --sm=0```
 
-OR, using shared memory: ```mcmc-gpu.exe --n-blocks=30 --n-threads=1920 --n-dim=2 --sm=1```
+OR, using shared memory: ```mcmc_gpu.exe --n-blocks=30 --n-threads=1920 --n-dim=2 --sm=1```
 
-(Note: shared memory requires very small datasets to work.)
+(Note: shared memory requires very small datasets to work and n_threads is the total number of threads spread across the blocks/grids.)
 
 Usage: MCMC options are...
 
