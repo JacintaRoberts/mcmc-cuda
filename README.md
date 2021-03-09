@@ -8,7 +8,7 @@ This VRES project used GPUs to parallelize a Markov Chain Monte Carlo (MCMC) alg
 
 OR, using 2-dimensions and 10 000 samples: ```python sample_generator.py 2 10000```
 
-<h3>2. Make project</h3>
+<h3>2. Make project using Makefile provided</h3>
 
 
 
